@@ -8,7 +8,10 @@ export type Student={
   indexNr: number;
 }
 export default function App() {
-  let students:Student[]=[{name: "Maria", surname: "Skłodowska",indexNr: 987654},{name:"Adrian", surname: "Duda", indexNr:123456},{name:"Albert", surname: "Einstein", indexNr:213456}];
+  let students:Student[]=[
+    {name: "Maria", surname: "Skłodowska",indexNr: 987654},
+    {name:"Adrian", surname: "Duda", indexNr:123456},
+    {name:"Albert", surname: "Einstein", indexNr:213456}];
 
 
 

@@ -16,21 +16,6 @@ type MyState = {
 
 //class PrintInput extends React.Component<MyProps,MyState> {
   function PrintInput (props:MyProps) {
-  
-  
-
-  // addNewStudent=():void=>{
-  //   this.props.addFn(this.state.newStudent);
-  //   this.setState({newStudent:{name:'',surname:'',indexNr:0}});
-   
-   
-  // }
-  
-
-  
-
-
-  
     return (
     <div style={{border: 'solid yellow'}}>
     

@@ -15,20 +15,8 @@ type MyState = {
 function Students(props: MyProps) {
   const [myValue, setValue] = React.useState('abc');
   const [students, setStudents] = React.useState([...props.students]);
-  // constructor(props: MyProps){
-  //   super(props);
-  //   this.state = {
-  //     students: [...this.props.students],// dlaczego nie: this.props.students
-  //    // newStudent:{name:'',surname:'',indexNr:0}
-  //   };
-  // }
 
   const addNewStudent = (newStudent: Student): void => {
-    // this.setState(prevState=>{
-    //   let students=prevState.students;
-    //   students.push(newStudent);
-    //   return {students: students};
-    // });
     setStudents((prevTab) => {
       let temp = [...prevTab];
       temp.push(newStudent);
